@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "190244829616",
+    "project_id": "finalprojectasupro",
+    "storage_bucket": "finalprojectasupro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190244829616:android:86c0b1eaf2564ff3dbbe75",
+        "android_client_info": {
+          "package_name": "com.example.asu_messenger_pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx5vhpt8JAM3r6SmUDxYo8WQWw43CMFig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190244829616:android:4b9b8674ace9bd84dbbe75",
+        "android_client_info": {
+          "package_name": "com.example.asu_pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx5vhpt8JAM3r6SmUDxYo8WQWw43CMFig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
