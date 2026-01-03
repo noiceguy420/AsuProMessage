@@ -30,8 +30,7 @@ class _LoginPageState extends State<LoginPage> {
           )
       );
       try {
-        final userCredentials = await _firebase.signInWithEmailAndPassword(
-            email: _enteredEmail, password: _enteredPassword);
+        await _firebase.signInWithEmailAndPassword(email: _enteredEmail, password: _enteredPassword);
 
             Navigator.pop(context);
             Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
@@ -139,10 +138,10 @@ class _LoginPageState extends State<LoginPage> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
                     ),
+                    padding: EdgeInsets.all(15),
                     child: Center(
                       child: Text('Login',),
                     ),
-                    padding: EdgeInsets.all(15),
                   ),
                 ),
               ],),

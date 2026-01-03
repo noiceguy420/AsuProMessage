@@ -22,7 +22,7 @@ class _UsersPageState extends State<UsersPage> {
         builder: (context,snapshot){
           if(snapshot.hasError){
             return Center(
-              child: Text('Error has Occured while loading users'),
+              child: Text('Error has Occurred while loading users'),
             );
           }
           if(snapshot.connectionState == ConnectionState.waiting){

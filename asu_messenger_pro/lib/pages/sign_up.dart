@@ -282,6 +282,7 @@ class _SignUpState extends State<SignUp> {
                               borderRadius: BorderRadius.circular(15),
                               color: Colors.black45,
                             ),
+                            padding: EdgeInsets.all(15),
                             child: Center(
                               child: Text(
                                 'Sign up',
@@ -291,7 +292,6 @@ class _SignUpState extends State<SignUp> {
                                     fontWeight: FontWeight.w600),
                               ),
                             ),
-                            padding: EdgeInsets.all(15),
                           ),
                         ),
                       ],
